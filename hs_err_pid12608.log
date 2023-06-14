@@ -1,0 +1,176 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff938107a12, pid=12608, tid=0x00000000000054c0
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_333-b02) (build 1.8.0_333-b02)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.333-b02 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [igxelpicd64.dll+0xa7a12]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000025bd5cbd800):  JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_native, id=21696, stack(0x0000006cb5d00000,0x0000006cb5e00000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000000035898
+
+Registers:
+RAX=0x0000025bdace2a38, RBX=0x0000025bdace2930, RCX=0x0000000000000000, RDX=0x00000000fffffff0
+RSP=0x0000006cb5dfe210, RBP=0x0000000000000000, RSI=0x0000025bdace2f00, RDI=0x0000025bda599860
+R8 =0x0000000000000014, R9 =0x0000000000000000, R10=0x0000000000000000, R11=0x0000000000000246
+R12=0x0000025bda429500, R13=0x0000025bdac321b0, R14=0x0000000000004500, R15=0x0000000000000016
+RIP=0x00007ff938107a12, EFLAGS=0x0000000000010202
+
+Top of Stack: (sp=0x0000006cb5dfe210)
+0x0000006cb5dfe210:   0000025bd86ae7f0 0000000000000000
+0x0000006cb5dfe220:   0000006cb5dfe2b0 00007ff99e6f2c94
+0x0000006cb5dfe230:   0000025bd5cb6480 0000025bd5cb2d30
+0x0000006cb5dfe240:   0000025bdadd1798 00007ff99e6e5321
+0x0000006cb5dfe250:   0000000000000013 00000000000045fc
+0x0000006cb5dfe260:   0000b80219620000 0000025bda429518
+0x0000006cb5dfe270:   0000000000000000 0000000000000000
+0x0000006cb5dfe280:   0000006cb5dfe390 00007ff9380ed5bf
+0x0000006cb5dfe290:   0000025bd86ae7f0 0000025bda599860
+0x0000006cb5dfe2a0:   0000006cb4ba0000 00007ff99e66d800
+0x0000006cb5dfe2b0:   0000006c00000820 00007ff900000000
+0x0000006cb5dfe2c0:   0000000000000000 00007ff99e66d474
+0x0000006cb5dfe2d0:   0000025bbafe0bcc 00000000000000c0
+0x0000006cb5dfe2e0:   0000025bbafe0be4 0000025bbafe0ba0
+0x0000006cb5dfe2f0:   0000006cb5dfe408 0000006cb5dfe648
+0x0000006cb5dfe300:   0000006cb4b7b000 00007ff99e66d8d6 
+
+Instructions: (pc=0x00007ff938107a12)
+0x00007ff9381079f2:   83 2d 01 00 00 4a 8d 04 cd 21 00 00 00 49 03 c1
+0x00007ff938107a02:   48 8d 04 c3 48 85 c0 0f 85 03 01 00 00 49 8b ca
+0x00007ff938107a12:   48 3b 8d 98 58 03 00 0f 87 ce a2 94 00 48 8d 93
+0x00007ff938107a22:   08 01 00 00 4c 39 93 48 06 00 00 0f 85 39 a4 94 
+
+
+Register to memory mapping:
+
+RAX=0x0000025bdace2a38 is an unknown value
+RBX=0x0000025bdace2930 is an unknown value
+RCX=0x0000000000000000 is an unknown value
+RDX=0x00000000fffffff0 is an unknown value
+RSP=0x0000006cb5dfe210 is pointing into the stack for thread: 0x0000025bd5cbd800
+RBP=0x0000000000000000 is an unknown value
+RSI=0x0000025bdace2f00 is an unknown value
+RDI=0x0000025bda599860 is an unknown value
+R8 =0x0000000000000014 is an unknown value
+R9 =0x0000000000000000 is an unknown value
+R10=0x0000000000000000 is an unknown value
+R11=0x0000000000000246 is an unknown value
+R12=0x0000025bda429500 is an unknown value
+R13=0x0000025bdac321b0 is an unknown value
+R14=0x0000000000004500 is an unknown value
+R15=0x0000000000000016 is an unknown value
+
+
+Stack: [0x0000006cb5d00000,0x0000006cb5e00000],  sp=0x0000006cb5dfe210,  free space=1016k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000025bdae10800 JavaThread "AssetManager" daemon [_thread_blocked, id=11332, stack(0x0000006cb7300000,0x0000006cb7400000)]
+  0x0000025bda9bf800 JavaThread "AssetManager" daemon [_thread_blocked, id=16232, stack(0x0000006cb7200000,0x0000006cb7300000)]
+  0x0000025bdaa3c800 JavaThread "LWJGL3 Timer" daemon [_thread_blocked, id=2172, stack(0x0000006cb7100000,0x0000006cb7200000)]
+  0x0000025bda899000 JavaThread "AssetManager" daemon [_thread_blocked, id=21736, stack(0x0000006cb7000000,0x0000006cb7100000)]
+  0x0000025bda8da800 JavaThread "AssetManager" daemon [_thread_blocked, id=18556, stack(0x0000006cb6f00000,0x0000006cb7000000)]
+  0x0000025bd7b2d000 JavaThread "Service Thread" daemon [_thread_blocked, id=19920, stack(0x0000006cb6400000,0x0000006cb6500000)]
+  0x0000025bd5ce4000 JavaThread "C1 CompilerThread3" daemon [_thread_blocked, id=15324, stack(0x0000006cb6300000,0x0000006cb6400000)]
+  0x0000025bd5cd7000 JavaThread "C2 CompilerThread2" daemon [_thread_blocked, id=6196, stack(0x0000006cb6200000,0x0000006cb6300000)]
+  0x0000025bd5cd4000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=18052, stack(0x0000006cb6100000,0x0000006cb6200000)]
+  0x0000025bd5cde000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=14484, stack(0x0000006cb6000000,0x0000006cb6100000)]
+  0x0000025bd5cc2000 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=21716, stack(0x0000006cb5e00000,0x0000006cb5f00000)]
+=>0x0000025bd5cbd800 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_native, id=21696, stack(0x0000006cb5d00000,0x0000006cb5e00000)]
+  0x0000025bd5ca5800 JavaThread "Attach Listener" daemon [_thread_blocked, id=1204, stack(0x0000006cb5c00000,0x0000006cb5d00000)]
+  0x0000025bd5ca3000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3824, stack(0x0000006cb5b00000,0x0000006cb5c00000)]
+  0x0000025bd5c7b000 JavaThread "Finalizer" daemon [_thread_blocked, id=18116, stack(0x0000006cb5a00000,0x0000006cb5b00000)]
+  0x0000025bd5c6c000 JavaThread "Reference Handler" daemon [_thread_blocked, id=14144, stack(0x0000006cb5900000,0x0000006cb5a00000)]
+  0x0000025bbb09c000 JavaThread "main" [_thread_blocked, id=2352, stack(0x0000006cb4f00000,0x0000006cb5000000)]
+
+Other Threads:
+  0x0000025bd5c42800 VMThread [stack: 0x0000006cb5800000,0x0000006cb5900000] [id=5808]
+  0x0000025bd5cfb000 WatcherThread [stack: 0x0000006cb6500000,0x0000006cb6600000] [id=15108]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000006c4c00000, size: 4020 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+Heap:
+ PSYoungGen      total 75264K, used 60724K [0x000000076c400000, 0x0000000771800000, 0x00000007c0000000)
+  eden space 64512K, 94% used [0x000000076c400000,0x000000076ff4d2e8,0x0000000770300000)
+  from space 10752K, 0% used [0x0000000770d80000,0x0000000770d80000,0x0000000771800000)
+  to   space 10752K, 0% used [0x0000000770300000,0x0000000770300000,0x0000000770d80000)
+ ParOldGen       total 172032K, used 0K [0x00000006c4c00000, 0x00000006cf400000, 0x000000076c400000)
+  object space 172032K, 0% used [0x00000006c4c00000,0x00000006c4c00000,0x00000006cf400000)
+ Metaspace       used 11388K, capacity 11626K, committed 11904K, reserved 1060864K
+  class space    used 1028K, capacity 1118K, committed 1152K, reserved 1048576K
+
+Card table byte_map: [0x0000025bcbf20000,0x0000025bcc700000] byte_map_base: 0x0000025bc88fa000
+
+Marking Bits: (ParMarkBitMap*) 0x000000005e609030
+ Begin Bits: [0x0000025bccc40000, 0x0000025bd0b10000)
+ End Bits:   [0x0000025bd0b10000, 0x0000025bd49e0000)
+
+Polling page: 0x0000025bbb340000
+
+CodeCache: size=245760Kb used=5839Kb max_used=5839Kb free=239920Kb
+ bounds [0x0000025bbcb60000, 0x0000025bbd120000, 0x0000025bcbb60000]
+ total_blobs=2602 nmethods=1565 adapters=958
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 30.206 Thread 0x0000025bd5ce4000 1587       3       com.badlogic.gdx.graphics.g3d.ModelInstance::calculateTransforms (65 bytes)
+Event: 30.206 Thread 0x0000025bd5ce4000 nmethod 1587 0x0000025bbd10ef50 code [0x0000025bbd10f120, 0x0000025bbd10f6e0]
+Event: 30.206 Thread 0x0000025bd5ce4000 1584       3       com.badlogic.gdx.graphics.g3d.utils.ModelBuilder::rebuildReferences (57 bytes)
+Event: 30.207 Thread 0x0000025bd5ce4000 nmethod 1584 0x0000025bbd111b50 code [0x0000025bbd111dc0, 0x0000025bbd112b90]
+Event: 30.207 Thread 0x0000025bd5ce4000 1585       3       com.badlogic.gdx.graphics.g3d.ModelInstance::copyNodes (45 bytes)
+Event: 30.207 Thread 0x0000025bd5ce4000 nmethod 1585 0x0000025bbd10e590 code [0x0000025bbd10e760, 0x0000025bbd10ec70]
+Event: 30.207 Thread 0x0000025bd5ce4000 1586       3       com.badlogic.gdx.graphics.g3d.ModelInstance::copyAnimations (38 bytes)
+Event: 30.207 Thread 0x0000025bd5ce4000 nmethod 1586 0x0000025bbd113490 code [0x0000025bbd113640, 0x0000025bbd113c20]
+Event: 30.207 Thread 0x0000025bd5ce4000 1590       3       com.genmiracle.flightofvanity.graphics.cube.CubeController::getSides (224 bytes)
+Event: 30.208 Thread 0x0000025bd5ce4000 nmethod 1590 0x0000025bbd113e50 code [0x0000025bbd114240, 0x0000025bbd1169a0]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (10 events):
+Event: 6.890 Thread 0x0000025bbb09c000 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000025bbcebc260 method=com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader()V @ 137
+Event: 6.893 Thread 0x0000025bbb09c000 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000025bbceb9590 method=com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader()V @ 137
+Event: 6.894 Thread 0x0000025bbb09c000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000025bbceaf83c method=com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader()V @ 12
+Event: 6.894 Thread 0x0000025bbb09c000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000025bbce9e61c method=com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader()V @ 12
+Event: 7.052 Thread 0x0000025bbb09c000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000025bbced1918 method=com.badlogic.gdx.assets.AssetLoadingTask.update()Z @ 7
+Event: 7.054 Thread 0x0000025bbb09c000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000025bbcdacaac method=java.util.HashMap.getNode(ILjava/lang/Object;)Ljava/util/HashMap$Node; @ 116
+Event: 7.064 Thread 0x0000025bbb09c000 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000025bbced0108 method=com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader()V @ 214
+Event: 7.089 Thread 0x0000025bbb09c000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000025bbced4794 method=com.badlogic.gdx.assets.AssetManager.update(I)Z @ 15
+Event: 8.561 Thread 0x0000025bbb09c000 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000025bbcec01e8 method=com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader()V @ 137
+Event: 9.126 Thread 0x0000025bbb09c000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000025bbcdabc2c method=java.util.HashMap.getNode(ILjava/lang/Object;)Ljava/util/HashMap$Node; @ 116
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 6.559 Thread 0x0000025bbb09c000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076d366998) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jni.cpp, line 710]
+Event: 6.561 Thread 0x0000025bbb09c000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076d378500) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jni.cpp, line 710]
+Event: 6.561 Thread 0x0000025bbb09c000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076d378b00) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jni.cpp, line 710]
+Event: 6.684 Thread 0x0000025bbb09c000 Exception <a 'java/security/PrivilegedActionException'> (0x000000076d4e9c68) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jvm.cpp, line 1523]
+Event: 6.684 Thread 0x0000025bbb09c000 Exception <a 'java/security/PrivilegedActionException'> (0x000000076d4e9e78) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jvm.cpp, line 1523]
+Event: 6.767 Thread 0x0000025bbb09c000 Exception <a 'java/security/PrivilegedActionException'> (0x000000076d80a290) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jvm.cpp, line 1523]
+Event: 6.767 Thread 0x0000025bbb09c000 Exception <a 'java/security/PrivilegedActionException'> (0x000000076d80a688) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jvm.cpp, line 1523]
+Event: 7.062 Thread 0x0000025bbb09c000 Exception <a 'java/io/FileNotFoundException'> (0x000000076dfdfcf0) thrown at [C:\jenkins\workspace\8-2-build-windows-amd64-cygwin\jdk8u333\2551\hotspot\src\share\vm\prims\jni.cpp, line 710]
+Event: 8.683 

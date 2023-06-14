@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ffd131d-42c8-450a-a7bc-3531f26cf650" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2MvFYn6KF50E8TnYqqMoGhDUR7y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/slitf/Documents/CS3152/3152-project/assets/levels&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\assets\levels" />
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\assets\audio\footsteps" />
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\assets\audio" />
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\core\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\assets\audio" />
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\assets\audio\footsteps" />
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\assets" />
+      <recent name="C:\Users\slitf\Documents\CS3152\3152-project\core\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DesktopLauncher">
+    <configuration name="DesktopLauncher" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.genmiracle.flightofvanity.DesktopLauncher" />
+      <module name="3152-project.desktop.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="-Dserver.port" value="8081" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.genmiracle.flightofvanity.DesktopLauncher" />
+      <module name="3152-project.core.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3152-project:desktop [:desktop:DesktopLauncher.main()]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/desktop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":desktop:DesktopLauncher.main()" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DesktopLauncher" />
+      <item itemvalue="Application.Unnamed (1)" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Gradle.3152-project:desktop [:desktop:DesktopLauncher.main()]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ffd131d-42c8-450a-a7bc-3531f26cf650" name="Changes" comment="" />
+      <created>1678640199382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678640199382</updated>
+      <workItem from="1678640200643" duration="1324000" />
+      <workItem from="1678641811396" duration="498000" />
+      <workItem from="1678642323931" duration="1739000" />
+      <workItem from="1678829643942" duration="593000" />
+      <workItem from="1678835038477" duration="1876000" />
+      <workItem from="1678917774934" duration="6000" />
+      <workItem from="1678921820796" duration="2525000" />
+      <workItem from="1679083022085" duration="688000" />
+      <workItem from="1679173407712" duration="2875000" />
+      <workItem from="1679246987549" duration="6537000" />
+      <workItem from="1679265076441" duration="4248000" />
+      <workItem from="1679329283833" duration="2245000" />
+      <workItem from="1679365945661" duration="31000" />
+      <workItem from="1679506831354" duration="3629000" />
+      <workItem from="1679510826913" duration="49000" />
+      <workItem from="1679524658540" duration="4296000" />
+      <workItem from="1679548264608" duration="267000" />
+      <workItem from="1679589201028" duration="148000" />
+      <workItem from="1679595157113" duration="54000" />
+      <workItem from="1679679386855" duration="1713000" />
+      <workItem from="1679935778368" duration="283000" />
+      <workItem from="1680623394664" duration="3363000" />
+      <workItem from="1681088560844" duration="13591000" />
+      <workItem from="1681144366903" duration="45000" />
+      <workItem from="1681151170799" duration="8722000" />
+      <workItem from="1681162465831" duration="19838000" />
+      <workItem from="1681337133638" duration="9289000" />
+      <workItem from="1681403351731" duration="398000" />
+      <workItem from="1681492970101" duration="916000" />
+      <workItem from="1681498974627" duration="1406000" />
+      <workItem from="1681588787259" duration="35000" />
+      <workItem from="1681591064252" duration="596000" />
+      <workItem from="1681671683664" duration="873000" />
+      <workItem from="1681778989614" duration="521000" />
+      <workItem from="1681925629302" duration="2157000" />
+      <workItem from="1681951655582" duration="7776000" />
+      <workItem from="1681960814823" duration="17000" />
+      <workItem from="1682102266165" duration="1966000" />
+      <workItem from="1682190203792" duration="6021000" />
+      <workItem from="1682223546168" duration="1468000" />
+      <workItem from="1682288534837" duration="4064000" />
+      <workItem from="1682391526071" duration="12596000" />
+      <workItem from="1682528619617" duration="1110000" />
+      <workItem from="1682536353051" duration="517000" />
+      <workItem from="1682612427837" duration="574000" />
+      <workItem from="1682707016283" duration="3285000" />
+      <workItem from="1682998678063" duration="1833000" />
+      <workItem from="1683046699840" duration="1032000" />
+      <workItem from="1683064950544" duration="2737000" />
+      <workItem from="1683163275391" duration="9008000" />
+      <workItem from="1683219047292" duration="724000" />
+      <workItem from="1683311093114" duration="802000" />
+      <workItem from="1683312361371" duration="7617000" />
+      <workItem from="1683321061411" duration="259000" />
+      <workItem from="1683400405485" duration="9615000" />
+      <workItem from="1683600499161" duration="968000" />
+      <workItem from="1684440968881" duration="2582000" />
+      <workItem from="1684443573709" duration="7261000" />
+      <workItem from="1684599648181" duration="1383000" />
+      <workItem from="1684602032979" duration="1810000" />
+      <workItem from="1685240239870" duration="243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/com/genmiracle/flightofvanity/audio/AudioController.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/com/genmiracle/flightofvanity/audio/AudioController.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/core/src/com/genmiracle/flightofvanity/instance/model/Player.java</url>
+          <line>338</line>
+          <properties class="com.genmiracle.flightofvanity.instance.model.Player">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3152_project$DesktopLauncher.ic" NAME="DesktopLauncher Coverage Results" MODIFIED="1682103935395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

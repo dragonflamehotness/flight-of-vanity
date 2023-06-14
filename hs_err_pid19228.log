@@ -1,0 +1,40 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffda3247a12, pid=19228, tid=0x0000000000001ce0
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_333-b02) (build 1.8.0_333-b02)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.333-b02 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [igxelpicd64.dll+0xa7a12]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000026ba5ace800):  JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_native, id=7392, stack(0x0000006bef500000,0x0000006bef600000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000000035898
+
+Registers:
+RAX=0x0000026bafad1868, RBX=0x0000026bafad1760, RCX=0x0000000000000000, RDX=0x00000000fffffff0
+RSP=0x0000006bef5fe680, RBP=0x0000000000000000, RSI=0x0000026bafad1d30, RDI=0x0000026ba8218700
+R8 =0x0000000000000014, R9 =0x0000000000000000, R10=0x0000000000000000, R11=0x0000000000000246
+R12=0x0000026ba81bde00, R13=0x0000026bafaa9dd0, R14=0x0000000000000900, R15=0x0000000000000016
+RIP=0x00007ffda3247a12, EFLAGS=0x0000000000010202
+
+Top of Stack: (sp=0x0000006bef5fe680)
+0x0000006bef5fe680:   0000026ba80f2d00 0000000000000000
+0x0000006bef5fe690:   0000006bef5fed10 00007ffdf4ab2c94
+0x0000006bef5fe6a0:   00008001434d9017 0000006bef5fed70
+0x0000006bef5fe6b0:   0000026baf81d3c8 00007ffdf4aa5321
+0x0000006bef5fe6c0:   0000000000000013 000000000000091b
+0x0000006bef5fe6d0:   0000b802001c0000 0000026ba81bded8
+0x0000006bef5fe6e0:   0000000000000000 0000000000000000
+0x0000006bef5fe6f0:   0000006bef5fe800 00007ffda322d5bf

@@ -1,0 +1,172 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff8ebb57a12, pid=30740, tid=0x0000000000001ec0
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_333-b02) (build 1.8.0_333-b02)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.333-b02 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [igxelpicd64.dll+0xa7a12]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001e0fc728800):  JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_native, id=7872, stack(0x0000001901800000,0x0000001901900000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000000035898
+
+Registers:
+RAX=0x000001e0982086a8, RBX=0x000001e0982085a0, RCX=0x0000000000000000, RDX=0x00000000fffffff0
+RSP=0x00000019018fe380, RBP=0x0000000000000000, RSI=0x000001e098208b70, RDI=0x000001e097863c70
+R8 =0x0000000000000014, R9 =0x0000000000000000, R10=0x0000000000000000, R11=0x0000000000000246
+R12=0x000001e097766c00, R13=0x0000000000000000, R14=0x0000000000112300, R15=0x0000000000000016
+RIP=0x00007ff8ebb57a12, EFLAGS=0x0000000000010202
+
+Top of Stack: (sp=0x00000019018fe380)
+0x00000019018fe380:   000001e0ff0da490 0000000000000000
+0x00000019018fe390:   00000019018fe420 00007ff99e6f2c94
+0x00000019018fe3a0:   000001e0fc72c010 000001e0fc728ca0
+0x00000019018fe3b0:   000001e0fc77e0d8 00007ff99e6e5321
+0x00000019018fe3c0:   0000000000000013 0000000000112309
+0x00000019018fe3d0:   0000b80219620000 000001e097766cd8
+0x00000019018fe3e0:   0000000000000000 0000000000000000
+0x00000019018fe3f0:   00000019018fe500 00007ff8ebb3d5bf
+0x00000019018fe400:   000001e0ff0da490 000001e097863c70
+0x00000019018fe410:   00000019004f9000 00007ff99e66d800
+0x00000019018fe420:   00000019000009dc 00007ff900000000
+0x00000019018fe430:   0000000000000000 2010543d7a000004
+0x00000019018fe440:   0000000000000000 0000000000000000
+0x00000019018fe450:   000010027a000004 0000000000000000
+0x00000019018fe460:   0000000000000000 001040007a000004
+0x00000019018fe470:   0000000000000000 0000000000000000 
+
+Instructions: (pc=0x00007ff8ebb57a12)
+0x00007ff8ebb579f2:   83 2d 01 00 00 4a 8d 04 cd 21 00 00 00 49 03 c1
+0x00007ff8ebb57a02:   48 8d 04 c3 48 85 c0 0f 85 03 01 00 00 49 8b ca
+0x00007ff8ebb57a12:   48 3b 8d 98 58 03 00 0f 87 ce a2 94 00 48 8d 93
+0x00007ff8ebb57a22:   08 01 00 00 4c 39 93 48 06 00 00 0f 85 39 a4 94 
+
+
+Register to memory mapping:
+
+RAX=0x000001e0982086a8 is an unknown value
+RBX=0x000001e0982085a0 is an unknown value
+RCX=0x0000000000000000 is an unknown value
+RDX=0x00000000fffffff0 is an unknown value
+RSP=0x00000019018fe380 is pointing into the stack for thread: 0x000001e0fc728800
+RBP=0x0000000000000000 is an unknown value
+RSI=0x000001e098208b70 is an unknown value
+RDI=0x000001e097863c70 is an unknown value
+R8 =0x0000000000000014 is an unknown value
+R9 =0x0000000000000000 is an unknown value
+R10=0x0000000000000000 is an unknown value
+R11=0x0000000000000246 is an unknown value
+R12=0x000001e097766c00 is an unknown value
+R13=0x0000000000000000 is an unknown value
+R14=0x0000000000112300 is an unknown value
+R15=0x0000000000000016 is an unknown value
+
+
+Stack: [0x0000001901800000,0x0000001901900000],  sp=0x00000019018fe380,  free space=1016k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000001e097de8800 JavaThread "LWJGL3 Timer" daemon [_thread_blocked, id=37812, stack(0x0000001902c00000,0x0000001902d00000)]
+  0x000001e097c29000 JavaThread "AssetManager" daemon [_thread_blocked, id=29012, stack(0x0000001902b00000,0x0000001902c00000)]
+  0x000001e097c4d000 JavaThread "AssetManager" daemon [_thread_blocked, id=26484, stack(0x0000001902a00000,0x0000001902b00000)]
+  0x000001e0fe5a0000 JavaThread "Service Thread" daemon [_thread_blocked, id=38708, stack(0x0000001901f00000,0x0000001902000000)]
+  0x000001e0fc75a000 JavaThread "C1 CompilerThread3" daemon [_thread_blocked, id=37908, stack(0x0000001901e00000,0x0000001901f00000)]
+  0x000001e0fc757800 JavaThread "C2 CompilerThread2" daemon [_thread_blocked, id=30968, stack(0x0000001901d00000,0x0000001901e00000)]
+  0x000001e0fc750000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=33372, stack(0x0000001901c00000,0x0000001901d00000)]
+  0x000001e0fc754000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=31828, stack(0x0000001901b00000,0x0000001901c00000)]
+  0x000001e0fc73a000 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=1868, stack(0x0000001901900000,0x0000001901a00000)]
+=>0x000001e0fc728800 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_native, id=7872, stack(0x0000001901800000,0x0000001901900000)]
+  0x000001e0fc71e800 JavaThread "Attach Listener" daemon [_thread_blocked, id=38500, stack(0x0000001901700000,0x0000001901800000)]
+  0x000001e0fc71d800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=30440, stack(0x0000001901600000,0x0000001901700000)]
+  0x000001e0fc6f6000 JavaThread "Finalizer" daemon [_thread_blocked, id=27684, stack(0x0000001901500000,0x0000001901600000)]
+  0x000001e0fc6eb000 JavaThread "Reference Handler" daemon [_thread_blocked, id=33724, stack(0x0000001901400000,0x0000001901500000)]
+  0x000001e0f88da000 JavaThread "main" [_thread_blocked, id=16808, stack(0x0000001900a00000,0x0000001900b00000)]
+
+Other Threads:
+  0x000001e0fc6c3000 VMThread [stack: 0x0000001901300000,0x0000001901400000] [id=31992]
+  0x000001e0fc754800 WatcherThread [stack: 0x0000001902000000,0x0000001902100000] [id=11612]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000006c4c00000, size: 4020 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+Heap:
+ PSYoungGen      total 75264K, used 23707K [0x000000076c400000, 0x0000000771800000, 0x00000007c0000000)
+  eden space 64512K, 22% used [0x000000076c400000,0x000000076d25baa8,0x0000000770300000)
+  from space 10752K, 83% used [0x0000000770300000,0x0000000770bcb2d8,0x0000000770d80000)
+  to   space 10752K, 0% used [0x0000000770d80000,0x0000000770d80000,0x0000000771800000)
+ ParOldGen       total 172032K, used 80K [0x00000006c4c00000, 0x00000006cf400000, 0x000000076c400000)
+  object space 172032K, 0% used [0x00000006c4c00000,0x00000006c4c14010,0x00000006cf400000)
+ Metaspace       used 13112K, capacity 13330K, committed 13568K, reserved 1060864K
+  class space    used 1197K, capacity 1280K, committed 1280K, reserved 1048576K
+
+Card table byte_map: [0x000001e0fa740000,0x000001e0faf20000] byte_map_base: 0x000001e0f711a000
+
+Marking Bits: (ParMarkBitMap*) 0x000000005ea39030
+ Begin Bits: [0x000001e08f000000, 0x000001e092ed0000)
+ End Bits:   [0x000001e092ed0000, 0x000001e096da0000)
+
+Polling page: 0x000001e0f8b80000
+
+CodeCache: size=245760Kb used=7730Kb max_used=7748Kb free=238029Kb
+ bounds [0x000001e080000000, 0x000001e0807a0000, 0x000001e08f000000]
+ total_blobs=3169 nmethods=2106 adapters=983
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 25.814 Thread 0x000001e0fc75a000 2114       3       com.genmiracle.flightofvanity.instance.mechanisms.Keyhole::activate (46 bytes)
+Event: 25.815 Thread 0x000001e0fc75a000 nmethod 2114 0x000001e080786f50 code [0x000001e080787120, 0x000001e080787960]
+Event: 25.925 Thread 0x000001e0fc750000 2115       4       com.badlogic.gdx.math.collision.BoundingBox::set (160 bytes)
+Event: 25.929 Thread 0x000001e0fc750000 nmethod 2115 0x000001e080786090 code [0x000001e080786200, 0x000001e0807866f8]
+Event: 26.630 Thread 0x000001e0fc757800 2116       4       com.genmiracle.flightofvanity.physics.raycasting.Ray2D::getIntersectToLineSeg (170 bytes)
+Event: 26.633 Thread 0x000001e0fc757800 nmethod 2116 0x000001e080785390 code [0x000001e080785520, 0x000001e0807858f8]
+Event: 60.847 Thread 0x000001e0fc75a000 2117       3       com.badlogic.gdx.scenes.scene2d.ui.Table::ensureSize (23 bytes)
+Event: 60.848 Thread 0x000001e0fc75a000 nmethod 2117 0x000001e08076ea90 code [0x000001e08076ec20, 0x000001e08076f010]
+Event: 68.721 Thread 0x000001e0fc754000 2118       4       org.lwjgl.system.MemoryUtil::memAddress (11 bytes)
+Event: 68.723 Thread 0x000001e0fc754000 nmethod 2118 0x000001e0805f9c90 code [0x000001e0805f9dc0, 0x000001e0805f9e38]
+
+GC Heap History (2 events):
+Event: 17.558 GC heap before
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 75264K, used 64512K [0x000000076c400000, 0x0000000771800000, 0x00000007c0000000)
+  eden space 64512K, 100% used [0x000000076c400000,0x0000000770300000,0x0000000770300000)
+  from space 10752K, 0% used [0x0000000770d80000,0x0000000770d80000,0x0000000771800000)
+  to   space 10752K, 0% used [0x0000000770300000,0x0000000770300000,0x0000000770d80000)
+ ParOldGen       total 172032K, used 0K [0x00000006c4c00000, 0x00000006cf400000, 0x000000076c400000)
+  object space 172032K, 0% used [0x00000006c4c00000,0x00000006c4c00000,0x00000006cf400000)
+ Metaspace       used 13084K, capacity 13330K, committed 13568K, reserved 1060864K
+  class space    used 1197K, capacity 1280K, committed 1280K, reserved 1048576K
+Event: 17.570 GC heap after
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 75264K, used 9004K [0x000000076c400000, 0x0000000771800000, 0x00000007c0000000)
+  eden space 64512K, 0% used [0x000000076c400000,0x000000076c400000,0x0000000770300000)
+  from space 10752K, 83% used [0x0000000770300000,0x0000000770bcb2d8,0x0000000770d80000)
+  to   space 10752K, 0% used [0x0000000770d80000,0x0000000770d80000,0x0000000771800000)
+ ParOldGen       total 172032K, used 80K [0x00000006c4c00000, 0x00000006cf400000, 0x000000076c400000)
+  object space 172032K, 0% used [0x00000006c4c00000,0x00000006c4c14010,0x00000006cf400000)
+ Metaspace       used 13084K, capacity 13330K, committed 13568K, reserved 1060864K
+  class space    used 1197K, capacity 1280K, committed 1280K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 5.536 Thread 0x000001e0f88da000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000001e0804bf2d0 method=java.lang.Math.round(F)I @ 36
+Event: 7.467 

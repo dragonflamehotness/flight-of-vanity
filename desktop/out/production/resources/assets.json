@@ -1,0 +1,98 @@
+{
+    "audio": {
+      "music": {
+        "mono": false,
+        "sampleRate": 44100,
+        "volume": 1.0,
+        "pan": 1,
+        "pitch": 1,
+        "sources": [
+          "audio/test.wav"
+        ]
+      }
+    },
+	"textures": {
+        "victory": "victory.png",
+        "background": "loading/background-main.png",
+        "background-level-select": "levelSelect/level-background.png",
+        "background_setting": "setting/settings-background.png",
+        "background_control": "control/Controls_UI.png",
+        "bar": "setting/bar.png",
+        "knob": "setting/knob.PNG",
+        "knob_background": "setting/bar2.png",
+        "play": "loading/start_game.png",
+        "select_level": "loading/select_level.png",
+        "level1": "levelSelect/level1.png",
+        "level2": "levelSelect/level2.png",
+        "level3": "levelSelect/level3.png",
+        "level4": "levelSelect/level4.png",
+        "level5": "levelSelect/level5.png",
+        "level6": "levelSelect/level6.png",
+        "level7": "levelSelect/level7.png",
+        "level8": "levelSelect/level8.png",
+        "level9": "levelSelect/level9.png",
+        "level10": "levelSelect/level10.png",
+        "settings": "loading/settings.png",
+        "testPlatform": "testingPlatform.png",
+        "platform0": "platform/platform0.png",
+        "platform1": "platform/platform1.png",
+        "platform2": "platform/platform2.png",
+        "platform3": "platform/platform3.png",
+        "platform4": "platform/platform4.png",
+        "platform5": "platform/platform5.png",
+        "platform6": "platform/platform6.png",
+        "platform7": "platform/platform7.png",
+        "platform8": "platform/platform8.png",
+        "platform9": "platform/platform9.png",
+        "platform10": "platform/platform10.png",
+        "platform11": "platform/platform11.png",
+        "platform12": "platform/platform12.png",
+        "platform13": "platform/platform13.png",
+        "platform14": "platform/platform14.png",
+        "platform15": "platform/platform15.png",
+        "platform16": "platform/platform16.png",
+        "platform17": "platform/platform17.png",
+        "platform18": "platform/platform18.png",
+        "platform19": "platform/platform19.png",
+        "light": "light.png",
+        "mirror45": "mirror/mirror45.png",
+        "mirror90": "mirror/mirror90.png",
+        "mirror360": "mirror/mirror360.png",
+        "lightsource": "lightsource.png",
+        "hint": "mirrorhere.png",
+        "testBackground": "black.png",
+        "vanity": "cube/instances/vanity_final.png",
+        "vanity-still": "vanity_still.png",
+        "ghost": "cube/instances/ghost.png",
+        "door": "cube/instances/door.png",
+        "keyhole": "cube/instances/crystal.png",
+        "side0Background": "cube/backgrounds/2.png",
+        "side1Background": "cube/backgrounds/1.png",
+        "side2Background": "cube/backgrounds/3.png",
+        "side3Background": "cube/backgrounds/4.png",
+        "side4Background": "cube/backgrounds/5.png",
+        "side5Background": "cube/backgrounds/6.png",
+        "arrow": "arrow.png",
+        "pauseIcon": "ui/gameplay/pause-icon.png",
+        "emptyBagUI": "ui/gameplay/bag_icon_empty.png",
+        "45BagUI": "ui/gameplay/bag_icon_triangle.png",
+        "90BagUI": "ui/gameplay/bag_icon_square.png"
+    },
+    "jsons": {
+        "testingLevel": "testingLevel/constants.json"
+    },
+  "fonts": {
+    "shared:retro": {
+      "file": "skin/font.ttf",
+      "size": 24
+    },
+    "shared:retro-36": {
+      "file": "skin/font.ttf",
+      "size": 50
+    }
+  },
+  "skin": {
+    "skinJson": "skin/uiskin.json"
+  }
+
+}
